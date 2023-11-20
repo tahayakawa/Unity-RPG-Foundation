@@ -36,3 +36,4 @@ https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/51e43906-091
   - 上で作成した装備アイテムを装備できる
 - CreatePartyStatus: パーティの情報
   - 上で生成したアイテムやキャラクターを割り当てる
+  - ここで割り当てられているアイテムやキャラクターがメニュー画面で表示される持ち物やステータスとなる
