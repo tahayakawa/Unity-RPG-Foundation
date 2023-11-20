@@ -24,7 +24,9 @@ https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/51e43906-091
 - シーン内にMainCanvas, GameManager, Playerプレハブを置く
   - 参照を適当に渡す
 - "Menu"ボタンを割り当てる
+
 ![image](https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/d9dc1e6d-6f5f-4812-bce2-9750ed8cff44)
+
 - 実行して動作を確認する
 
 # アイテム・キャラクターデータの生成
