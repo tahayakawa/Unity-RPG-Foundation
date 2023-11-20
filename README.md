@@ -1,5 +1,5 @@
 # Unity-RPG-Foundation
-UnityでRPGを作るのに必要な基盤部分
+UnityでRPGを作るのに必要なメニュー画面やデータ管理などの基盤部分の実装
 - [ユニティちゃんのRPGを作ってみよう](https://gametukurikata.com/category/letstrymakeit/unitychanrpg/page/3)
 - こちらをもとに改変したものです
 - Instantiate, GetComponent, Findなどの重い処理をできるだけ使わないようにして軽量化を図っています
