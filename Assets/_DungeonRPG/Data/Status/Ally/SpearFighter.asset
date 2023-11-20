@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a55be4c4bf7124ea392a6c882603c1, type: 3}
+  m_Name: SpearFighter
+  m_EditorClassIdentifier: 
+  characterName: "\u69CD\u58EB"
+  isPoisonState: 0
+  isNumbnessState: 0
+  level: 1
+  maxHp: 1000
+  hp: 1000
+  maxMp: 50
+  mp: 50
+  strength: 10
+  vitality: 10
+  intelligence: 10
+  resist: 10
+  agility: 10
+  earnedExperience: 0
+  equipWeapon: {fileID: 11400000, guid: 6cd6e208f3a4eb74d83d780dff77996e, type: 2}
+  equipArmor: {fileID: 0}

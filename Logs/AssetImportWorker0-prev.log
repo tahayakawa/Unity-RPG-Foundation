@@ -1,0 +1,714 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 32614 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Projects/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57934
+Successfully changed project path to: E:/Unity/Projects/My project
+E:/Unity/Projects/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9460] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 2271928876 [EditorId] 2271928876 [Version] 1048832 [Id] WindowsEditor(7,Desktop4070ti) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9460] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 2271928876 [EditorId] 2271928876 [Version] 1048832 [Id] WindowsEditor(7,Desktop4070ti) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007102 seconds.
+- Loaded All Assemblies, in  0.240 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.152 seconds
+Domain Reload Profiling: 392ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (119ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (337ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3570.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 1.955600 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.702100 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.503 seconds
+Refreshing native plugins compatible for Editor in 24.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3573.
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 1.746200 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.513000 ms  DeleteObjects: 0.032200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13671.661114 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c677a724b6484da6e75dd68f10796906') in 0.062093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionLLLL.asset
+  artifactKey: Guid(ee9ed25a7b365da4384e7e09e738d178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionLLLL.asset using Guid(ee9ed25a7b365da4384e7e09e738d178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46316498670ba638e8572a92094989fd') in 0.033323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_DungeonRPG/Prefabs/UI/Menu/Menu.prefab
+  artifactKey: Guid(77541d65602e3a54993105de01dfbeab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/UI/Menu/Menu.prefab using Guid(77541d65602e3a54993105de01dfbeab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5d8eacc29c93d73bd46fa06f4cc1aaa') in 0.052985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1968
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_DungeonRPG/Editor/SerializableDictionary.cs
+  artifactKey: Guid(629789c94c0f6aa438bf1eeefe58d233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Editor/SerializableDictionary.cs using Guid(629789c94c0f6aa438bf1eeefe58d233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63994d6ce68f78a7cfe994c47f847e2d') in 0.006395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/MenuPanelButton.cs
+  artifactKey: Guid(8a63b2462262130429e60d5dbd92b1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/MenuPanelButton.cs using Guid(8a63b2462262130429e60d5dbd92b1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2513b4ca57acfe8f36d025240ec83389') in 0.005815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.shader
+  artifactKey: Guid(e155352afc69ea440baffad4c3a39631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.shader using Guid(e155352afc69ea440baffad4c3a39631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a793001a64cb4d6e3cce609e9520cc5e') in 0.008480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_DungeonRPG/Prefabs/UI/Menu/SimpleCharacterStatusPanel.prefab
+  artifactKey: Guid(f1cd81dc2887aa741bc278d0dce301c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/UI/Menu/SimpleCharacterStatusPanel.prefab using Guid(f1cd81dc2887aa741bc278d0dce301c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4535d6e7e558387d8c864583575466a5') in 0.018473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion.asset
+  artifactKey: Guid(30cbcf945ebe2094796bc27648580123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion.asset using Guid(30cbcf945ebe2094796bc27648580123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '161c0a5f4e8002ef6065b3c340a0e2a4') in 0.006716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Spear1.asset
+  artifactKey: Guid(6cd6e208f3a4eb74d83d780dff77996e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Spear1.asset using Guid(6cd6e208f3a4eb74d83d780dff77996e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f68b6fe36233eaf1588cead816c2c8d6') in 0.005877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_DungeonRPG/Data/Status/Goblin.asset
+  artifactKey: Guid(1894ba1dbab9c5c4c873f8e21585277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/Status/Goblin.asset using Guid(1894ba1dbab9c5c4c873f8e21585277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7fc0f848bbcec8c3333ba3488a8bde6') in 0.008732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/ScrollDownButton.cs
+  artifactKey: Guid(f549fe88c0f7d1948a1136b10adebad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/ScrollDownButton.cs using Guid(f549fe88c0f7d1948a1136b10adebad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef31f399e237eb0f101b7f33cd55ac29') in 0.005264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Spear1 1.asset
+  artifactKey: Guid(839f0550a8dd3ea43861de5d811413b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Spear1 1.asset using Guid(839f0550a8dd3ea43861de5d811413b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a8884b5f3b823c94ab65f98ea63c33c') in 0.006452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 3.asset
+  artifactKey: Guid(2ed938a04bc6a234ba44603e8e487d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 3.asset using Guid(2ed938a04bc6a234ba44603e8e487d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f5a27afcab01d84eecb2346bcd5bfc1') in 0.006125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/_DungeonRPG/Scripts/Status/PartyStatus.cs
+  artifactKey: Guid(9ca5338b561c77246afcbccdef4f3386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Status/PartyStatus.cs using Guid(9ca5338b561c77246afcbccdef4f3386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f2ea8f549808222d1a1cc7961b77dbf') in 0.006067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_DungeonRPG/Prefabs/GameManager.prefab
+  artifactKey: Guid(f60c1749736c4f04b8e89e5819e8c992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/GameManager.prefab using Guid(f60c1749736c4f04b8e89e5819e8c992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f0d2435784a47e07e4511c9de41df71') in 0.006608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_DungeonRPG/Scripts/GameManager.cs
+  artifactKey: Guid(5e76092b8516d1a4db258d17bcf075b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/GameManager.cs using Guid(5e76092b8516d1a4db258d17bcf075b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dea0742efc1cc837149a82feb79232e9') in 0.006386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/ScrollUpAndDownButton.cs
+  artifactKey: Guid(11a7eb4b76832a24eb47f018a3922877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/ScrollUpAndDownButton.cs using Guid(11a7eb4b76832a24eb47f018a3922877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f24ecc2d0af4c97477b508d715b79c8a') in 0.006077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_DungeonRPG/Scripts/Dungeon/EncountManager.cs
+  artifactKey: Guid(2d445e1a7ff534b41a1f5dc0c4a61887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Dungeon/EncountManager.cs using Guid(2d445e1a7ff534b41a1f5dc0c4a61887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b707ee61212f2c061f2af408a9bf204f') in 0.005439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 5.asset
+  artifactKey: Guid(c51a46e2b26e7fa4c9e494fec849595b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 5.asset using Guid(c51a46e2b26e7fa4c9e494fec849595b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f9b3fe20d5467e5d55a8573ae93c057') in 0.005319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SerializableDictionary/Example/UserSerializableDictionaries.cs
+  artifactKey: Guid(bd910530dd8f6b5429c65a494644ed09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializableDictionary/Example/UserSerializableDictionaries.cs using Guid(bd910530dd8f6b5429c65a494644ed09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3378f5c2e897c4c03b298906c5f13c78') in 0.005386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion.asset
+  artifactKey: Guid(780037fd3879e644d95eee661ad44b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion.asset using Guid(780037fd3879e644d95eee661ad44b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ea87af113019d99b1e2aa04c2890828') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SerializableDictionary/SerializableDictionary.cs
+  artifactKey: Guid(e7be1c9624387604fba4005ccf7dbd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializableDictionary/SerializableDictionary.cs using Guid(e7be1c9624387604fba4005ccf7dbd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f1997c8d81586d425e7c6ed6541d31e') in 0.006577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs
+  artifactKey: Guid(91da51d02ab9ebc459d80d5965d40d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs using Guid(91da51d02ab9ebc459d80d5965d40d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3de9457aa65b1a0b2de0fcb5ec6cfe4f') in 0.008136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.mat
+  artifactKey: Guid(74f8bb2afba52134da9a2c1fbeb605ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.mat using Guid(74f8bb2afba52134da9a2c1fbeb605ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ab1b70c422404bc1683c1a8ccd6d0cc') in 0.012779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionL.asset
+  artifactKey: Guid(8693911bb4ad457479ebf6eefd6d70e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionL.asset using Guid(8693911bb4ad457479ebf6eefd6d70e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee287ed6097613102dbdb2efb0d49338') in 0.008588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SerializableDictionary/Example/SerializableDictionaryExample.cs
+  artifactKey: Guid(d5ff00a74ccb984498070d9930a7944c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializableDictionary/Example/SerializableDictionaryExample.cs using Guid(d5ff00a74ccb984498070d9930a7944c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94fba164c818a64a8ec016e438e9c5e1') in 0.007515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/ItemNotificationPanel.cs
+  artifactKey: Guid(e137e0b0690f7d54bb18a0a17a3dbd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/ItemNotificationPanel.cs using Guid(e137e0b0690f7d54bb18a0a17a3dbd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80efabd0a17aca9b4ec68bb4698d2c1a') in 0.008384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion 1.asset
+  artifactKey: Guid(74b2b49994ad8bb49b0fb36d7d01f7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion 1.asset using Guid(74b2b49994ad8bb49b0fb36d7d01f7f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '034ae17283ed279616f19285b1d4b9c5') in 0.007412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_DungeonRPG/Scripts/Item/ItemDictionary.cs
+  artifactKey: Guid(f89364aba668bc243b498134d23c55d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Item/ItemDictionary.cs using Guid(f89364aba668bc243b498134d23c55d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '184e09d6f3400f887fb1f5e89642a90e') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion 2.asset
+  artifactKey: Guid(16febc108b04a264697c8351c57a9d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion 2.asset using Guid(16febc108b04a264697c8351c57a9d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9655d7634e1d11c008ad35d6c27b7ce') in 0.008197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/ItemPanelButton.cs
+  artifactKey: Guid(0644995920acd6d4ba59ed07be4a80c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/ItemPanelButton.cs using Guid(0644995920acd6d4ba59ed07be4a80c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81d3dcd1d73943324280c5f35c9aea5a') in 0.008336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 4.asset
+  artifactKey: Guid(95626bfa044f66348876499a689885ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 4.asset using Guid(95626bfa044f66348876499a689885ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7fd2b0576f241a1a99f6b818615722b') in 0.007627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DungeonRPG/Data/Status/Ally/SpearFighter.asset
+  artifactKey: Guid(aa489bcb5dcd9824592dba5baf4cd052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/Status/Ally/SpearFighter.asset using Guid(aa489bcb5dcd9824592dba5baf4cd052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '435fb9e68dbf35781a6dbaad1fac1cdb') in 0.010953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionSS.asset
+  artifactKey: Guid(7b880f3248d194946b48015bd86fea2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionSS.asset using Guid(7b880f3248d194946b48015bd86fea2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77b136b0700420408d30d0d170a4c6d3') in 0.007031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion 2.asset
+  artifactKey: Guid(22af6c20ea3c1e34cb5ee2abf3613b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/NumbnessRecoveryPotion 2.asset using Guid(22af6c20ea3c1e34cb5ee2abf3613b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aec926d2784fec8a9d43ccdec548c74') in 0.006667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionLLL.asset
+  artifactKey: Guid(c7b3908617eeabe4ea1940976c590c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionLLL.asset using Guid(c7b3908617eeabe4ea1940976c590c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b971839f1aa6fe12328fe86ae138461') in 0.008228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_DungeonRPG/Prefabs/UI/Menu/ItemPanelButton.prefab
+  artifactKey: Guid(b07d3d09af2e98440af6e1b11991f492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/UI/Menu/ItemPanelButton.prefab using Guid(b07d3d09af2e98440af6e1b11991f492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81419e4e2ba37308f0b9a9769d855617') in 0.024455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 1.asset
+  artifactKey: Guid(695e58260fe7f2e4f9cf799048a4a803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Weapon/Sword1 1.asset using Guid(695e58260fe7f2e4f9cf799048a4a803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '181d17a991eff83232448bb67456d85f') in 0.011127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_DungeonRPG/Scripts/Menu/MenuCommand.cs
+  artifactKey: Guid(bf499144b5687104eb34c6fcb4deba4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Scripts/Menu/MenuCommand.cs using Guid(bf499144b5687104eb34c6fcb4deba4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe6d7171c25dc2e9b80d4ca1196463c3') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_DungeonRPG/Prefabs/Player.prefab
+  artifactKey: Guid(caf6d5113b840c74786384b3a5e3fa1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/Player.prefab using Guid(caf6d5113b840c74786384b3a5e3fa1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33b46c210d9cb9d398b445bb8e95384f') in 0.009336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion 1.asset
+  artifactKey: Guid(aaff0f36ba506264dbb781f2299023ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/StateRecovery/PoisonRecoveryPotion 1.asset using Guid(aaff0f36ba506264dbb781f2299023ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbd5685b7db295886a6d645dca8fcdfe') in 0.007849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.cs
+  artifactKey: Guid(f30f9382620d5ba4da900f14c2b0224b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Featrue/FadeToBattle/FadeToBattle.cs using Guid(f30f9382620d5ba4da900f14c2b0224b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c08531009a34cb19fda2e3644d553872') in 0.006890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionS.asset
+  artifactKey: Guid(df1261900e97d174faf4c451b971d5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Data/ItemData/Recovery/HpPotionS.asset using Guid(df1261900e97d174faf4c451b971d5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69586b0002c7dec2d30deb08e37f75fd') in 0.006124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_DungeonRPG/Prefabs/UI/MainCanvas.prefab
+  artifactKey: Guid(c49033a6afa2c054aa47319c00b78058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_DungeonRPG/Prefabs/UI/MainCanvas.prefab using Guid(c49033a6afa2c054aa47319c00b78058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8737a744e40c7c4910702fa8baa94f') in 0.036711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1973
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 7.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (34.1 KB). Loaded Objects now: 3578.
+Memory consumption went from 127.0 MB to 126.9 MB.
+Total: 2.048900 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.099400 ms MarkObjects: 1.731200 ms  DeleteObjects: 0.043000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

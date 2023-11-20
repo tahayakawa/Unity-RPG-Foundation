@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca5338b561c77246afcbccdef4f3386, type: 3}
+  m_Name: PartyStatus
+  m_EditorClassIdentifier: 
+  money: 0
+  partyMembers:
+  - {fileID: 11400000, guid: aec8045870a96b740bf1c7195efed0ec, type: 2}
+  - {fileID: 11400000, guid: aa489bcb5dcd9824592dba5baf4cd052, type: 2}
+  itemDictionary:
+    m_keys:
+    - {fileID: 11400000, guid: 30cbcf945ebe2094796bc27648580123, type: 2}
+    - {fileID: 11400000, guid: 780037fd3879e644d95eee661ad44b8d, type: 2}
+    - {fileID: 11400000, guid: 6cd6e208f3a4eb74d83d780dff77996e, type: 2}
+    - {fileID: 11400000, guid: 839f0550a8dd3ea43861de5d811413b9, type: 2}
+    - {fileID: 11400000, guid: 7f80ae0e77b80af42a57a4c377dc160a, type: 2}
+    - {fileID: 11400000, guid: 945c30c0d1dc6884d8a0cc6865ca37bc, type: 2}
+    - {fileID: 11400000, guid: 9983c6c225e637c458aa1f93b60afc1e, type: 2}
+    - {fileID: 11400000, guid: 1143430e253889f49883241e39cbb3e1, type: 2}
+    - {fileID: 11400000, guid: 695e58260fe7f2e4f9cf799048a4a803, type: 2}
+    - {fileID: 11400000, guid: 143edc6a653d93d4184773857be27002, type: 2}
+    - {fileID: 11400000, guid: 2ed938a04bc6a234ba44603e8e487d4a, type: 2}
+    - {fileID: 11400000, guid: 4e8511ecfd9196e4c8b5542c11a179ad, type: 2}
+    - {fileID: 11400000, guid: 95626bfa044f66348876499a689885ad, type: 2}
+    - {fileID: 11400000, guid: c51a46e2b26e7fa4c9e494fec849595b, type: 2}
+    - {fileID: 11400000, guid: 74b2b49994ad8bb49b0fb36d7d01f7f0, type: 2}
+    - {fileID: 11400000, guid: 22af6c20ea3c1e34cb5ee2abf3613b70, type: 2}
+    - {fileID: 11400000, guid: 8693911bb4ad457479ebf6eefd6d70e0, type: 2}
+    - {fileID: 11400000, guid: def4b6758c86b7543b60db4a80b616cb, type: 2}
+    - {fileID: 11400000, guid: c7b3908617eeabe4ea1940976c590c05, type: 2}
+    - {fileID: 11400000, guid: ee9ed25a7b365da4384e7e09e738d178, type: 2}
+    - {fileID: 11400000, guid: 7b880f3248d194946b48015bd86fea2b, type: 2}
+    m_values: 010000000100000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000030000000a0000000a00000008000000070000000a000000
