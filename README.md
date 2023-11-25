@@ -10,12 +10,16 @@ UnityでRPGを作るのに必要なメニュー画面やデータ管理などの
 - メニュー画面
   - ステータス画面
   - アイテム画面
+- ターン制の戦闘画面・システム
 
 https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/51e43906-091a-4a1c-bc6c-8cef8ded0a7f
 
 
+https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/3f05d472-cc9a-4961-89bb-33d78ebb17c8
+
+
+
 # 実装する予定
-- ターン制の戦闘画面・システム
 - アイテム種別ごとのタブ分け
 - キャラごとのスキル振り分け機能
 
