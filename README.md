@@ -42,3 +42,8 @@ https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/3f05d472-cc9
 - CreatePartyStatus: パーティの情報
   - 上で生成したアイテムやキャラクターを割り当てる
   - ここで割り当てられているアイテムやキャラクターがメニュー画面で表示される持ち物やステータスとなる
+
+# 使用させていただいたエディタ拡張など
+- [インターフェイスをSerialize出来るようにするSerializeReferenceのための表示attribute](https://qiita.com/tsukimi_neko/items/7922b2433ed4d8616cce
+)https://qiita.com/tsukimi_neko/items/7922b2433ed4d8616cce
+- [SerializableDictionary](https://assetstore.unity.com/packages/tools/integration/serializabledictionary-90477)https://assetstore.unity.com/packages/tools/integration/serializabledictionary-90477
