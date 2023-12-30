@@ -47,3 +47,4 @@ https://github.com/tahayakawa/Unity-RPG-Foundation/assets/102804813/3f05d472-cc9
 - [インターフェイスをSerialize出来るようにするSerializeReferenceのための表示attribute](https://qiita.com/tsukimi_neko/items/7922b2433ed4d8616cce
 )https://qiita.com/tsukimi_neko/items/7922b2433ed4d8616cce
 - [SerializableDictionary](https://assetstore.unity.com/packages/tools/integration/serializabledictionary-90477)https://assetstore.unity.com/packages/tools/integration/serializabledictionary-90477
+- [UniTask ver.2.5.0](https://github.com/Cysharp/UniTask/releases)https://github.com/Cysharp/UniTask/releases
